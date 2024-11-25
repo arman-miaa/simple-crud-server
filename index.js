@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-
+// const uri = "mongodb://localhost:27017/";
 
 const uri =
   "mongodb+srv://mdarman365506:HGBwyHStAC2V3aTo@cluster0.7argw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
